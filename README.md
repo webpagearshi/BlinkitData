@@ -15,16 +15,22 @@ You can hover over each square on the left column to find the delivery time. The
 
 The squares on the right column with yellow borders represent the number of items bought in each purchase. If you hover over the square you will find the bill amount for the order. When we compare the two squares in each row for each month we can see if the order size has a correlation to the delivery time.
 
-When you hover over the moon you can find some background information about the data. 
+The stars in the sky represent all the items that I have bought in the 6 months. Hover over them to know the names of the items and the number of times they were purchased.
 
-The waves represent the chaos of the fast life we lead in today's world as we are constantly running against time. 
+When you hover over the moon you can find some background information about the data.
+
+On the bottom left hand side you can find legends to explain the colour chart. Hover over each square to know what each colour represents. 
+
+The waves represent the chaos of the fast life we lead in today's world as we are constantly running against time. To feel the effect of the chaos I have added sound effects which you can hear by clicking any where on the canvas.To stop playing the sound click on the canvas.
 
 
 ## Design Inspiration
 
-The design is inspired by the work "AMS by Night" of Generative Artist @xavitribo
+The chart layout design is inspired by the work "AMS by Night" of Generative Artist @xavitribo
 
 [![ Design Inspiration!](/assets/design-inspo.png "AMS by night by @xavitribo")](https://www.instagram.com/p/Cqk0o1HD-vh/)
+
+I have not used any text in this data art to give the effect of a painting. You can hover over each element to discover the story behind the art work. 
 
 
 ## Attributions
