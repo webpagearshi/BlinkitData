@@ -1,13 +1,12 @@
+
 //set variables
 let table1, table2, table3; 
 let totalRows,totalRows2,totalRows3;
 let month,timeslot,deliveryTime;
 let x,y;
 var stars =[];
-//let pg;
-//let img;
 let yOff =0.0;
- 
+var song;
 
 function preload(){
 
@@ -16,6 +15,9 @@ function preload(){
   table2 =loadTable("blinkit_data_monthly.csv","csv","header");
   table3 =loadTable("blinkit_itemlist.csv","csv","header");
 
+  // loading music files
+  soundFormats('mp3', 'ogg');
+  song = loadSound("assets/wavessound.mp3");
   //img =loadImage('assets/gold_tex.jpg');
 }
 
@@ -48,6 +50,8 @@ function setup() {
     };
     stars.push(star);
     
+    //play song
+    //wavesound.play();
   }
 
 
@@ -489,4 +493,15 @@ function createStar(x, y, radius1, radius2, npoints) {
     vertex(sx, sy);
   }
   endShape(CLOSE);
+}
+
+function mousePressed() {
+  if (song.isPlaying()) {
+    // .isPlaying() returns a boolean
+    song.stop();
+    //background(255, 0, 0);
+  } else {
+    song.play();
+    //background(0, 255, 0);
+  }
 }
