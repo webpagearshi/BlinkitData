@@ -16,7 +16,7 @@ function preload(){
   table3 =loadTable("blinkit_itemlist.csv","csv","header");
 
   // loading music files
-  soundFormats('mp3', 'ogg');
+  //soundFormats('mp3', 'ogg');
   song = loadSound("assets/wavessound.mp3");
   //img =loadImage('assets/gold_tex.jpg');
 }
