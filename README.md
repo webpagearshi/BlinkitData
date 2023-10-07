@@ -30,12 +30,12 @@ The chart layout design is inspired by the work "AMS by Night" of Generative Art
 
 [![ Design Inspiration!](/assets/design-inspo.png "AMS by night by @xavitribo")](https://www.instagram.com/p/Cqk0o1HD-vh/)
 
-I have not used any text in this data art to give the effect of a painting. You can hover over each element to discover the story behind the art work. 
+I have not used any text in this data art to give the effect of a painting. You can hover over each element to discover the story behind the artwork. 
 
 
 ## Attributions
 
-1. Credits and thanks to @joanneamarisa for the very each to understand tutorials which helped me learn p5.js in a very short time.
+1. Credits and thanks to @joanneamarisa for the very easy-to-understand tutorials which helped me learn p5.js in a very short time.
 
 2. Thanks to The Coding Train tutorials 
 
